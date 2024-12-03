@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", serif;
+}
+
+body{
+
+    background: url(backround.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    backdrop-filter: blur(40px);
+}
+
+.contx {
+    
+    max-width: 1180px;
+    width: 100%;
+    height: 401px;
+    background: linear-gradient(85deg, gray, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 20px 20px 100px 10px pink;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+   
+}
+
+h2 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 28px;
+ color: red;
+}
+.box{
+    max-width: 749px;
+    width: 100%;
+    height: 319px;
+}
+
+.one{
+    max-width: 362px;
+    height: 50px;
+    border-radius: 9px;
+    border: 1px solid #A1A1A1;
+    padding-left: 10px;
+}
+
+.two{
+    max-width: 749px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #A1A1A1;
+    border-radius: 9px;
+    padding-left: 10px;
+
+}
+
+button{
+    width: 169px;
+    height: 42px;
+    color: white;
+    background: linear-gradient(85deg, gray, red);
+    border-radius: 9px;
+    border: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+.inputOne{
+    max-width: 739px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}

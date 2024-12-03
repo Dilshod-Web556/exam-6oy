@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Mono", monospace;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  color: f;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, red, orange, #ff0);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+h2 {
+  font-size: 10rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.line {
+  width: 12rem;
+  height: 0.1rem;
+  position: relative;
+}
+
+.line::before {
+  position: absolute;
+  content: "";
+  width: 4rem;
+  height: 0.1rem;
+  background: #fff;
+  transition: 0.5s;
+}
+
+.container:hover .line::before {
+  width: 100%;
+}
+
+.container .social_box a {
+  display: inline-block;
+  font-size: 4.5rem;
+  margin: 0 1rem;
+  pointer-events: none;
+  color: #fff;
+  transition: 0.7s;
+  opacity: 0;
+}
+
+.container .social_box a:nth-child(even) {
+  transform: translateY(-3rem);
+}
+
+.container .social_box a:nth-child(odd) {
+  transform: translateY(3rem);
+}
+
+.container:hover .social_box a {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.fa-facebook:hover {
+  color: black;
+}
+
+.social_box a:hover i {
+  transition: color 0.5s;
+}
+
+.social_box a:nth-child(1):hover i {
+  color: blue;
+}
+
+.social_box a:nth-child(2):hover i {
+  background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+  border-radius: 10px;
+}
+
+.social_box a:nth-child(3):hover i {
+  color: #5795c5;
+}
+
+.social_box a:nth-child(4):hover i {
+  color: #ff0000;
+}
+
+.social_box a:nth-child(5):hover i {
+  color: #24a1de;
+}
+

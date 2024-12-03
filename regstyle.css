@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: url(backround.jpg) center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-family: "IBM Plex Serif", serif;
+    font-size: 40px;
+    text-align: center;
+    transition: 0.5s;
+    margin-bottom: 100px;
+}
+
+h1:hover{
+font-size: 50px;
+background: linear-gradient(85deg, gray, black, grey);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.google{
+    width:400px;
+    height: 350px;
+    background: linear-gradient(85deg, grey, black);
+border-radius: 20px;
+}
+
+.google p{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Geist Mono", monospace;
+    cursor: pointer;
+    background: linear-gradient(85deg, red, yellow, green, #3D5BF5);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.google:hover{
+  border-radius: 70px;
+  transition: 0.5s;
+}
+
+
+
+
+
+
+
+.guest{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.guest{
+    width:400px;
+    height: 350px;
+    background: linear-gradient(85deg, grey, black);
+border-radius: 20px;
+}
+
+.guest p{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Geist Mono", monospace;
+    cursor: pointer;
+    background: linear-gradient(85deg, white, gray);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.guest:hover{
+  border-radius: 70px;
+  transition: 0.5s;
+}
+
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+}
+
+
+.back img{
+  margin-left: 200px;
+  background: linear-gradient(90deg, gray, white);
+  width: 110px;
+  border-radius: 0 0 20px 20px;
+  transition: 0.5s;
+}
+
+
+.back img:hover{
+border-radius: 0 0 30px 30px;
+}

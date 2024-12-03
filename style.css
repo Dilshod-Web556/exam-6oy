@@ -1,0 +1,656 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav img {
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.head_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    cursor: pointer;
+}
+
+.phone {
+    margin-right: 500px;
+    cursor: pointer;
+    color: black;
+    font-family: "Roboto Mono", monospace;
+    font-size: 17px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.head_nav a {
+    font-family: "Roboto Slab", serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: black;
+    transition: 0.5s;
+}
+
+.head_nav a:hover {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.log {
+    background-color: transparent;
+    border: transparent;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 5px;
+    transition: 0.5s;
+}
+
+.log:hover {
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.log a {
+    color: black;
+}
+
+.log a:hover {
+    color: white;
+}
+
+.phone:hover {
+    color: cornflowerblue;
+    font-size: 20px;
+}
+
+.bg_photo {
+    background: url(задный\ фон.jpg) no-repeat center;
+    background-size: cover;
+    height: 700px;
+}
+
+nav {
+    background: linear-gradient(85deg, whitesmoke, grey);
+}
+
+.text h2 {
+    font-size: 60px;
+    color: black;
+    font-family: "Oswald", sans-serif;
+    margin-left: 40px;
+}
+
+.dream {
+    background: linear-gradient(85deg, blue, whitesmoke);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text button {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: transparent;
+    background: linear-gradient( 85deg, black, rgb(51, 51, 255) );
+    margin-top: 20px;
+    margin-right: 410px;
+}
+
+.text button a{
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text{
+    width: 800px;
+    padding-top: 300px;
+}
+
+.left_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left_text{
+    width: 300px;
+    height: 250px;
+  background: linear-gradient(85deg, gray, white);
+  border-radius: 20px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+
+.boxing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.left_text h4{
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(42, 42, 42);
+    font-weight: bold;
+}
+
+.left_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.left_image{
+    width: 300px;
+    height: 250px;
+  background: linear-gradient(85deg, gray, white);
+  border-radius: 20px;
+
+}
+
+
+.boxxx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left_image{
+    margin-right: 150px;
+}
+
+.left_image h4{
+font-size: 20px;
+font-weight: 700;
+padding-top: 20px;
+}
+
+
+.main_h{
+    font-family: "Orbitron", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.main_car{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main_car h4{
+    width: 400px;
+    height: 250px;
+    background: linear-gradient(85deg, gray, black);
+    border-radius: 0 0 30px 30px;
+    color: whitesmoke;
+    padding-top: 30px;
+    box-shadow: 10px 10px 40px 5px gray;
+}
+
+.main_car img{
+    border-radius: 30px 30px 0  0;
+    box-shadow: 10px 10px 40px 5px gray;
+}
+
+
+.main_car h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.help{
+    color: gold;
+    font-size: 30px;
+}
+
+
+
+
+
+
+.main_car_two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main_car_two h4{
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(85deg, black, grey );
+    border-radius: 0 0 30px 30px;
+    color: whitesmoke;
+    padding-top: 30px;
+box-shadow: 10px 10px 40px 5px gray;
+}
+
+.main_car_two img{
+    border-radius: 30px 30px 0  0;
+    box-shadow: 10px 10px 40px 5px gray;
+}
+
+
+.main_car_two h4{
+    font-weight: 400;
+}
+
+.money{
+    font-size: 20px;
+    color: gold;
+}
+
+
+
+
+
+
+
+.main_car_three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main_car_three h4{
+    width: 400px;
+    height: 210px;
+    background: linear-gradient(85deg, grey, rgb(41, 41, 41) );
+    border-radius: 0 0 30px 30px;
+    color: whitesmoke;
+    padding-top: 30px;
+box-shadow: 10px 10px 40px 5px gray;
+}
+
+.main_car_three img{
+    border-radius: 30px 30px 0  0;
+    box-shadow: 10px 10px 40px 5px gray;
+}
+
+
+.main_car_three h4{
+    font-weight: 400;
+}
+
+.exc{
+    font-size: 20px;
+    color: gold;
+}
+
+
+.div_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 150px;
+}
+
+
+.box_type{
+    width: 1300px;
+    margin: auto;
+}
+
+.box_type h2{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 70px;
+}
+
+.suv{
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.types{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 110px;
+}
+
+.visitors{
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 260px;
+    padding-bottom: 100px;
+}
+
+.visitors h6{
+color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: 600;
+text-align: center;
+width:  124px;
+}
+
+.visitors h6 span{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.premium{
+    width: 1300px;
+    margin: auto;
+}
+
+.premium h2{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 70px;
+}
+
+
+.suv{
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.brands{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 110px;
+}
+
+
+
+
+
+.volvo_c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.volvo_c p{
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: -30px 10px 100px 10px gray;
+    width: 447px;
+    height: 100px;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    padding-top: 20px;
+    color: #050B20;
+}
+
+.volvo_c img{
+position: relative;
+top: 10px;
+}
+
+
+
+
+
+.bentley_b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.bentley_b p{
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: -30px 10px 100px 10px gray;
+    width: 447px;
+    height: 100px;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    padding-top: 20px;
+    color: #050B20;
+    font-family: "DM Sans", sans-serif;
+}
+
+.bentley_b img{
+position: relative;
+top: 10px;
+}
+
+
+
+
+
+
+.audi_al{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.audi_al p{
+    font-size: 20px;
+    font-weight: 700;
+    box-shadow: -30px 10px 100px 10px gray;
+    width: 447px;
+    height: 100px;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    padding-top: 20px;
+    color: #050B20;
+    font-family: "DM Sans", sans-serif;
+}
+
+.audi_al img{
+border-radius: 20px 20px 0 0;
+}
+
+
+.selling{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 180px;
+}
+
+.device_car h2{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 70px;
+    margin-left: 100px;
+}
+
+
+.send_box{
+    width: 1300px;
+    margin: auto;
+}
+
+.for_send{
+    width: 1300px;
+    background: linear-gradient(700deg, white, #C0C0C0, gray);
+    border-radius: 0 15px 15px 0;
+    display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.for_send p{
+    font-family: "DM Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    width: 483px;
+}
+
+.mini{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.send_box{
+    display: flex;
+}
+
+.for_send input{
+    width: 562px;
+    height: 79px;
+    background-color: #2F353B;
+    border: transparent;
+    border-radius: 16px;
+    padding-left: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+
+.for_send button{
+    color: #1967D2;
+    font-size: 15px;
+    font-weight: 500;
+    width: 135px;
+    height: 59px;
+    border-radius: 15px;
+    border: transparent;
+    position: relative;
+    bottom: 73px;
+    left: 420px;
+    transition: 0.7s;
+}
+
+.for_send{
+    padding-top: 120px;
+}
+
+.for_send button:hover{
+    background-color: rgb(130, 130, 130);
+    color: white;
+    font-weight: bold;
+}
+
+
+.for_send input::placeholder {
+    color: white;
+  }
+
+
+
+  .send_box{
+    margin-bottom: 200px;
+  }
+
+
+.send_box img{
+width: 411px;
+height: 400px;
+background-color: gray;
+border-radius: 16px 0 0 16px ;
+}
+
+
+
+  footer{
+    height: 100px;
+    background: linear-gradient(100deg, gray, black, white );
+  }
+
+
+
+  .head_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head_footer img {
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.footer_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    cursor: pointer;
+}
+
+.footer_nav a {
+    font-family: "Roboto Slab", serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    transition: 0.5s;
+}
+
+.footer_nav a:hover {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+.phone_footer {
+    margin-right: 500px;
+    cursor: pointer;
+    color: black;
+    font-family: "Roboto Mono", monospace;
+    font-size: 17px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+
+.phone_footer:hover {
+    color: purple;
+    font-size: 20px;
+}
